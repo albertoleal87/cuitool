@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+<S:Body>
+    <ns2:TimbreFiscalDigital xmlns:ns2="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:ns3="http://www.buzonfiscal.com/TimbradoCFDI/" xmlns:ns4="http://www.buzonfiscal.com/ns/xsd/bf/RequestTimbraCFDI" xmlns:ns5="http://www.sat.gob.mx/cfd/3" xmlns:ns6="http://www.buzonfiscal.com/ns/xsd/bf/TimbradoCFD" xmlns:ns7="http://www.sat.gob.mx/detallista" xmlns:ns8="http://www.sat.gob.mx/terceros" xmlns:ns9="http://www.sat.gob.mx/ecc" xmlns:ns10="http://www.sat.gob.mx/implocal" xmlns:ns11="http://www.sat.gob.mx/ecb" xmlns:ns12="http://www.buzonfiscal.com/ns/referenceID/v1" xmlns:ns13="http://new.webservice.namespace" selloSAT="l+31gxFRfDl/MMEHa8fK3kUUZcJsbsojIOj+GmvKQfgYAdrEbnjTf2bRz1Djy+XlFxXkLpw76yuLpKO0QNlZz/CxNHoNh6XIB49ChmimDO87S+ObqLafvElHX3U0+tG2dS3AMbLYtoC5hZOuJPKeAC74wfCAR50vUrpE/aQHLx4=" noCertificadoSAT="30001000000100000801" selloCFD="SToXMLGGnXyErox4IiZmHz5P9bSNzRFbAen1sbapYrRQAbDiXTSUvxSawIOqAVyWC2L8mKy8OYllaFPnc7C2uGjpXXsWSXuy8W5Yn9mz4HupjjOH5kbGHwcSzKiLu/8irDBAtRVuRF4Fz2X6hboVONv7VHncub0WqRsRHDEgMgc=" FechaTimbrado="2011-01-26T17:35:04" UUID="eed1e947-638b-49f1-8cea-d29f37a760e4" version="1.0"/>
+</S:Body>
+</S:Envelope>

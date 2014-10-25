@@ -1,0 +1,61 @@
+* {padding: 0; margin: 0}
+html {background-color:444444; }
+
+li {background-color:#bbb; padding: 4px; width: 100px; ; font-size: 15px; font-weight: bold; margin: 5px; color:#FFF ;}
+
+input {background-color:#FFF; padding: 4px; width: 80px; font-size: 15px; font-weight: bold; margin: 5px; color:#555555 ; text-align: center;}
+
+
+ul li {display: inline-block;} 
+
+
+/* bordes redondeados*/
+
+li {border-radius: 79px ;
+-moz-border-radius: 79px ;
+-webkit-border-radius: 79px ;
+border: 1px solid #FF0000;}
+
+input {border-radius: 79px ;
+-moz-border-radius: 79px ;
+-webkit-border-radius: 79px ;
+border: 1px solid #AAAAAA;}
+
+li {background: #f85032;
+background: -moz-linear-gradient(top, #f85032 0%, #f85032 46%, #e73827 69%, #e73827 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #f85032), color-stop(46%, #f85032), color-stop(69%, #e73827), color-stop(100%, #e73827));
+background: -webkit-linear-gradient(top, #f85032 0%, #f85032 46%, #e73827 69%, #e73827 100%);
+background: -o-linear-gradient(top, #f85032 0%, #f85032 46%, #e73827 69%, #e73827 100%);
+background: -ms-linear-gradient(top, #f85032 0%, #f85032 46%, #e73827 69%, #e73827 100%);
+background: linear-gradient(to bottom, #f85032 0%, #f85032 46%, #e73827 69%, #e73827 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );}
+
+li:hover {background: #FF1111; color:#FFF}
+
+
+
+
+
+#left {background-color:#FFFFFF; color:#333333 ; width: 498px ; margin: 2px;  height: 455px ;padding: 2px; font-size: 13px  ; font-weight: bold ; font-family: verdana; 
+	border-radius: 5px ;
+-moz-border-radius: 5px ;
+-webkit-border-radius: 5px ;
+border: 1px solid #AAAAAA;}
+
+#right  {background-color:#FFFFFF; color:#333333 ; width: 492px ; height: 449px ;overflow: auto  ; ;padding: 2px; font-size: 13px  ; font-weight: bold ; font-family: verdana; 
+	border-radius: 5px ;
+-moz-border-radius: 5px ;
+-webkit-border-radius: 5px ;
+border: 1px solid #AAAAAA;  }
+
+#right2  {background-color:#FFFFFF; color:#333333 ; width: 498px ;  height: 455px ;padding: 2px; font-size: 13px  ; font-weight: bold ; font-family: verdana; 
+	border-radius: 5px ;
+-moz-border-radius: 5px ;
+-webkit-border-radius: 5px ;
+border: 1px solid #AAAAAA;}
+
+#certykey , #personal {width: 499px ; height: 70px ; background-color:#FFFFFF; color:#333333 ;padding: 2px; font-size: 13px  ; font-weight: bold ; font-family: verdana; 
+	border-radius: 5px ;
+-moz-border-radius: 5px ;
+-webkit-border-radius: 5px ;
+border: 1px solid #AAAAAA;}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+	targetNamespace="http://www.buzonfiscal.com/ns/xsd/bf/RequestTimbraCFDI"
+	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:bfrecpxsd="http://www.buzonfiscal.com/ns/xsd/bf/RequestTimbraCFDI" xmlns:Q1="http://www.buzonfiscal.com/ns/referenceID/v1">
+
+
+
+
+
+
+
+
+	<import schemaLocation="RefIDv1.0.xsd"
+		namespace="http://www.buzonfiscal.com/ns/referenceID/v1">
+	</import>
+	
+
+	<attribute name="RefID" type="Q1:refIDType"></attribute>
+
+	<complexType name="DocumentoType">
+		<attribute name="Archivo" type="base64Binary" use="required"></attribute>
+		<attribute name="NombreArchivo" type="string" use="optional"></attribute>
+		<attribute name="Tipo" use="required">
+			<simpleType>
+				<restriction base="string">
+					<enumeration value="ZIP"></enumeration>
+					<enumeration value="XML"></enumeration>
+					<enumeration value="GZ"></enumeration>
+				</restriction>
+			</simpleType>
+		</attribute>
+		<attribute name="Version" type="string" use="required"></attribute>
+	</complexType>
+
+	<element name="Documento" type="bfrecpxsd:DocumentoType"></element>
+
+	<complexType name="InfoBasicaType">
+		<attribute name="RfcEmisor" use="required">
+			<simpleType>
+				<restriction base="string">
+					<minLength value="12"></minLength>
+					<maxLength value="13"></maxLength>
+					<whiteSpace value="collapse"></whiteSpace>
+				</restriction>
+			</simpleType>
+		</attribute>
+		<attribute name="RfcReceptor" use="required">
+			<simpleType>
+				<restriction base="string">
+					<minLength value="12"></minLength>
+					<maxLength value="13"></maxLength>
+					<whiteSpace value="collapse"></whiteSpace>
+				</restriction>
+			</simpleType>
+		</attribute>
+		<attribute name="Serie" type="string"></attribute>
+	</complexType>
+
+	<element name="InfoBasica" type="bfrecpxsd:InfoBasicaType"></element>
+
+	<complexType name="InfoAdicionalType">
+		<attribute name="Atributo" type="string" use="required"></attribute>
+		<attribute name="Valor" type="string" use="required"></attribute>
+	</complexType>
+
+	<element name="InfoAdicional" type="bfrecpxsd:InfoAdicionalType"/>
+
+<!--  
+	<complexType name="InfoEspecialType">
+		<sequence>
+			<element ref="bfrecpxsd:InfoAdicionalType" minOccurs="1"
+				maxOccurs="10">
+			</element>
+		</sequence>
+	</complexType>
+
+	<element name="InfoEspecial" type="bfrecpxsd:InfoEspecialType"></element>
+
+
+		<complexType name="Comprobante">
+    		<xs:element minOccurs="0" maxOccurs="1"	ref="cfd2:Comprobante">
+			</xs:element>
+		</complexType>-->
+</schema>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tim="http://www.buzonfiscal.com/ns/xsd/bf/TimbradoCFD" xmlns:req="http://www.buzonfiscal.com/ns/xsd/bf/RequestTimbraCFDI" xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+<soapenv:Header/>
+<soapenv:Body>
+    <tim:RequestTimbradoCFD xmlns:tim="http://www.buzonfiscal.com/ns/xsd/bf/TimbradoCFD" xmlns:req="http://www.buzonfiscal.com/ns/xsd/bf/RequestTimbraCFDI" xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+    <req:InfoBasica RfcEmisor="AAA010101AAA" RfcReceptor="GAPJ700202XX0"/>
+    <cfdi:Comprobante xmlns:ecb="http://www.sat.gob.mx/ecb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:implocal="http://www.sat.gob.mx/implocal" xmlns:bfa2="http://www.buzonfiscal.com/ns/addenda/bf/2" xmlns:terceros="http://www.sat.gob.mx/terceros" xmlns:detallista="http://www.sat.gob.mx/detallista" xmlns:psgecfd="http://www.sat.gob.mx/psgecfd" xmlns:ecc="http://www.sat.gob.mx/ecc" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" tipoDeComprobante="ingreso" total="9616.4" subTotal="8290" certificado="MIIE/jCCA+agAwIBAgIUMzAwMDEwMDAwMDAxMDAwMDA4MDkwDQYJKoZIhvcNAQEFBQAwggFvMRgwFgYDVQQDDA9BLkMuIGRlIHBydWViYXMxLzAtBgNVBAoMJlNlcnZpY2lvIGRlIEFkbWluaXN0cmFjacOzbiBUcmlidXRhcmlhMTgwNgYDVQQLDC9BZG1pbmlzdHJhY2nDs24gZGUgU2VndXJpZGFkIGRlIGxhIEluZm9ybWFjacOzbjEpMCcGCSqGSIb3DQEJARYaYXNpc25ldEBwcnVlYmFzLnNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEjAQBgNVBAcMCUNveW9hY8OhbjEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTIwMAYJKoZIhvcNAQkCDCNSZXNwb25zYWJsZTogSMOpY3RvciBPcm5lbGFzIEFyY2lnYTAeFw0xMDA3MzAxNjU4NDhaFw0xMjA3MjkxNjU4NDhaMIGXMRIwEAYDVQQDDAlNYXRyaXogU0ExEjAQBgNVBCkMCU1hdHJpeiBTQTESMBAGA1UECgwJTWF0cml6IFNBMSUwIwYDVQQtExxBQUEwMTAxMDFBQUEgLyBBQUFBMDEwMTAxQUFBMR4wHAYDVQQFExUgLyBBQUFBMDEwMTAxSERGUlhYMDExEjAQBgNVBAsMCVVuaWRhZCAxMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsKL9mh8flpnQXVmtOvDnSYgtfRMTPe/4JQMivUYEr6sEAUIQu8tR0xlR0OcDP9LZBfTddUwK2zjiTCQiQhAkgsn8EQsZGI9cisqrePtRXfH/GwLl7l2IHMsAdI4Xvy6GRbszobt2IRuIZLj0MGv5/NcSmQTWv1QkSXMKaSUQ3BsCAwEAAaOB6jCB5zAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDAdBgNVHQ4EFgQUTwXUS0hPz51Nk4KyPhJLgP9qMYYwLgYDVR0fBCcwJTAjoCGgH4YdaHR0cDovL3BraS5zYXQuZ29iLm14L3NhdC5jcmwwMwYIKwYBBQUHAQEEJzAlMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5zYXQuZ29iLm14LzAfBgNVHSMEGDAWgBTrWX0EIppTjZ5xGqBYlin1OeCgxTAQBgNVHSAECTAHMAUGAyoDBDATBgNVHSUEDDAKBggrBgEFBQcDAjANBgkqhkiG9w0BAQUFAAOCAQEAtIP05qlz0J4dITRpQ0mEz47svkoRNHqTlQOXgXGeEfpF9ZowHIjvOw6nL1srLJWHh+c/RhN03gJ1tevw9In5vxMPITlmTeUGrWNqVef5U5hDkA/bg0clEEiVAuyO+r9cYq8l8EZ9Ip6fl9YMmGD80gC/nFDdbhQ04RaelyUh9Gv6pRAOtDevhyjqNupuOoR/Zzt7qMIb5/F7xflPDV6YvO7CS/1E9KGnixIJmdH/JqHm4FdIkeal1zJlN6MBYXgIewnuxkfObS8ZS7GhX9YYCctk+FnHvHDRgx3kmtZWhh0AvEsaZMiZ3IoI1s8xLDPgmY8vJwlbe4IY+qFisczBKA==" noCertificado="30001000000100000809" sello="aYmrp46Yn67MiQSHKPnbj8q77jryPdo3dvmP4jY1P1j8QG0XcMdug38P1VtvEZm5hhMfc+SE8tOkH+sc6cPXOHcnANYHJbFTDvjVFNRf9h+vGI9KtSFVNiIWVoLVYz4BrFntt8Hy1OZf3t3PCkYrEc2zMtiZIQ1+miUnmw8t7WE=" formaDePago="Pago en una sola exhibición" fecha="2011-06-29T12:14:18-05:00" version="3.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv3.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd http://www.sat.gob.mx/implocal http://www.sat.gob.mx/sitio_internet/cfd/implocal/implocal.xsd http://www.buzonfiscal.com/ns/addenda/bf/2 http://www.buzonfiscal.com/schema/xsd/Addenda_BF_v2.2.xsd ">
+    <cfdi:Emisor nombre="Empresa Demo" rfc="AAA010101AAA">
+        <cfdi:DomicilioFiscal codigoPostal="53400" pais="México" estado="Nuevo Leon" municipio="Monterrey" colonia="Obispado" noExterior="1640" calle="Padre Mier"/>
+    </cfdi:Emisor>
+    <cfdi:Receptor nombre="Juan Perez Galvan" rfc="GAPJ700202XX0">
+        <cfdi:Domicilio codigoPostal="53499" pais="México" estado="Nuevo Leon" municipio="Monterrey" noExterior="1660" calle="Venustiano Carroza" colonia="Obispado"/>
+    </cfdi:Receptor>
+    <cfdi:Conceptos>
+        <cfdi:Concepto unidad="kilo" valorUnitario="180.00" descripcion="Gusano ahumado en mezquite" cantidad="8" importe="1440"/>
+        <cfdi:Concepto unidad="kilo" valorUnitario="200.00" descripcion="Iguana doble pechuga" cantidad="10" importe="2000"/>
+        <cfdi:Concepto unidad="kilo" valorUnitario="60.00" descripcion="Cucaracha coctelera" cantidad="1" importe="60"/>
+        <cfdi:Concepto unidad="kilo" valorUnitario="100.00" descripcion="Cucaracha cocida" cantidad="10" importe="1000"/>
+        <cfdi:Concepto unidad="kilo" valorUnitario="60.00" descripcion="Cucaracha coctelera" cantidad="3" importe="180"/>
+        <cfdi:Concepto unidad="kilo" valorUnitario="80.00" descripcion="Grillo gigante marinado" cantidad="5" importe="400"/>
+        <cfdi:Concepto unidad="bolsa" valorUnitario="30.00" descripcion="Tamal de vibora" cantidad="5" importe="150"/>
+        <cfdi:Concepto unidad="kilo" valorUnitario="200.00" descripcion="Iguana doble pechuga" cantidad="10" importe="2000"/>
+        <cfdi:Concepto unidad="kilo" valorUnitario="100.00" descripcion="Cucaracha cocida" cantidad="1" importe="100"/>
+        <cfdi:Concepto unidad="kilo" valorUnitario="120.00" descripcion="Chapulines al ajillo" cantidad="8" importe="960"/>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos totalImpuestosTrasladados="1326.4">
+        <cfdi:Traslados>
+            <cfdi:Traslado importe="1326.4" tasa="16.00" impuesto="IVA"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+    </cfdi:Complemento>
+</cfdi:Comprobante>
+</tim:RequestTimbradoCFD>
+</soapenv:Body>
+</soapenv:Envelope>

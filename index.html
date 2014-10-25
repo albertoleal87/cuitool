@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="js/tool2.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<center>
+
+<ul>
+	<input type="text" id="cuantos" title="Cuantos conceptos para CFDI" value="10" >
+	<li title="Genera CFDi generico" onclick="loadDefaultCertificate(); loadDefaultSignCertificate(); profile();">NUEVO</li>
+	<li title="Firma el CFDi con el CSD" onclick="sign();">FIRMA</li>
+	<li title="Ensobreta el CFDi para enviar a timbrar" onclick="envelope(1);">ENSOBRETA</li>
+	<li title="Envia el sobre al timbrador DEMO" onclick="send(); $('#right').show(); $('#right2').hide();">TIMBRA</li>
+	<li title="Valida CFDi 3.2" onclick="verify(); $('#right').show(); $('#right2').hide();">VALIDA 3.2</li>
+	<li title="Restaura la ventana izquierda" onclick="undo();">REGRESA</li>
+
+<!--
+<li title="Ensobreta el CFDi" onclick="envelope(0);">Ensobreta Comprobante</li>
+<li title="Ensobreta el CFDi" onclick="envelope(2);">Ensobreta ZIP</li>
+<li title="Ensobreta el CFDi" onclick="envelope(3);">Ensobreta GZIP</li>
+<li title="Desensobreta el CFDi" onclick="unenvelope();">Desensobreta</li>
+-->
+
+</ul>
+
+
+<table>
+<tr>
+<td>
+
+<textarea id="left" title="Para capturar ya sea el texto completo del sobre SOAP o bien el comprobante a ensobretar segun sea el caso">
+IN
+</textarea>
+
+</td>
+<td>
+<div id="right"  title="Aqui aparecera el resultado de la operacion">
+OUT
+</div>
+<textarea id="right2" style="display:none" title="Aqui aparecera el resultado de la operacion">
+</textarea>
+</td>
+</tr>
+</table>
+
+	
+
+
+<p><left>
+<textarea id="certykey" rows='3' title="Para capturar el certificado de conexion (demo) en formato PEM">
+Certificado de Conexión
+</textarea>
+
+<textarea id="personal" rows='3' title="Para capturar el certificado de sello en formato PEM">Certificado de Sello
+</textarea>
+<p>
+
+
+<!-- button title="Manda el sobre con el certficado capturado SIN VALIDAR y regresa la respuesta" onclick="send('debug');">DEBUG</button -->
+</body>
+</html>
+
